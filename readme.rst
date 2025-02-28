@@ -47,7 +47,7 @@ install the dependencies:
    venv\Scripts\activate  # Activate the virtual environment.
 
    # On Linux and Windows:
-   pip install requirements.txt  # Install Python dependencies.
+   pip install -r requirements.txt  # Install Python dependencies.
 
 **Third**, visit the page https://pytorch.org/get-started/locally/ and follow the instructions to
 install PyTorch in your environment. This is required if you want to train reinforcement learning
