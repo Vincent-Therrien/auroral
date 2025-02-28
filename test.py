@@ -138,7 +138,7 @@ def create_buffer(
 configuration, model = configure()
 screen, meta_screen, font = prepare_game(configuration)
 resources = render.load_resources("assets/")
-DELTA = 1.0 / 30.0  # 1.0 / configuration["framerate"]
+DELTA = 1.0 / configuration["framerate"]
 
 quit = False
 outcomes = []

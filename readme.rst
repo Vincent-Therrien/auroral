@@ -89,7 +89,7 @@ You can select a level with the command-line option ``--level <n>``, where ``n``
    py train.py <configuration file> --output <output directory>  # Windows
 
 The ``<configuration file>`` is a JSON file that parametrizes the training session. You can use,
-for example, the file ``training/dqn2.json``. The ``<output directory>`` is an optional parameter.
+for example, the file ``training/dqn-2.json``. The ``<output directory>`` is an optional parameter.
 It is used to save the trained model.
 
 **Test** a model:
